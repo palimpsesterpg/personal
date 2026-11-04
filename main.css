@@ -207,11 +207,22 @@ hr {
 
 #page-header a {
     width: 75%;
+    height: 75%;
+    display: flex;
     font-size: var(--large);
     font-style: italic;
     font-family: var(--serif);
     color: var(--white) !important;
-    text-align: center
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--large)
+}
+
+#page-header a span {
+    font-size: var(--2xlarge) !important;
+    font-style: normal !important
 }
 
 #page-navbar {
