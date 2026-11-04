@@ -209,11 +209,10 @@ hr {
     width: 75%;
     height: 75%;
     display: flex;
-    font-size: var(--large);
+    font-size: var(--2xlarge);
     font-style: italic;
     font-family: var(--serif);
     color: var(--white-op75) !important;
-    text-shadow: 1px 1px var(--light);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -222,7 +221,7 @@ hr {
 }
 
 #page-header a span {
-    font-size: var(--2xlarge) !important;
+    font-size: var(--4xlarge) !important;
     font-style: normal !important
 }
 
