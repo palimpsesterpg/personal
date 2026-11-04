@@ -18,6 +18,8 @@
     --serif: "Playfair Display";
     --display: "Bebas";
 
+    --icons-thin: "uicons-thin-straight";
+
     --white-op25: #ffffff40;
     --white-op50: #ffffff80;
     --white-op75: #ffffffbf;
@@ -118,7 +120,7 @@ body {
     display: flex;
     background-color: var(--black-op50);
     border: 0.5px solid var(--black);
-    padding: var(--large);
+    padding: var(--2xsmall )var(--2xlarge);
     gap: var(--large);
 }
 
@@ -128,5 +130,22 @@ body {
     padding-left: var(--2xsmall);
     text-transform: uppercase;
     color: var(--white);
-    font-weight: 300
+    font-weight: 700
+}
+
+.copyright {
+    position: fixed;
+    bottom: var(--large);
+    right: var(--large)
+}
+
+.copyright a {
+    font-size: 0 !important
+}
+
+.copyright a:before {
+    content: "\f170";
+    font-family: var(--icons-thin);
+    font-size: var(--large);
+    color: black
 }
