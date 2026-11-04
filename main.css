@@ -86,18 +86,48 @@ body {
     background-color: var(--light);
     border: 0.5px solid var(--neutral);
     border-radius: var(--large);
+    width: 1000px;
+    margin: var(--large) auto
 }
 
 #page-header {
+    display: flex;
     height: 100vh;
     width: 100%;
     background-image: url(header.png);
     color: var(--black);
     font-size: var(--2xlarge);
     font-style: italic;
-    font-family: var(--serif)
+    font-family: var(--serif);
+    background-size: cover;
+    align-items: center;
+    justify-content: center
 }
 
 #page-header a {
-    width: 75%
+    width: 75%;
+    color: var(--white) !important;
+    text-align: center
+}
+
+#page-navbar {
+    position: fixed;
+    width: fit-content;
+    top: var(--large);
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    background-color: var(--black-op50);
+    border: 0.5px solid var(--black);
+    padding: var(--large);
+    gap: var(--large);
+}
+
+#page-navbar>* {
+    font-size: var(--xsmall);
+    letter-spacing: var(--2xsmall);
+    padding-left: var(--2xsmall);
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 300
 }
