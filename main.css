@@ -228,11 +228,12 @@ hr {
 }
 
 #page-navbar>* {
-    font-size: var(--xsmall);
-    letter-spacing: var(--2xsmall);
-    padding-left: var(--2xsmall);
+    font-size: var(--2xsmall);
+    letter-spacing: var(--4xsmall);
+    padding-left: var(--4xsmall);
     text-transform: uppercase;
     color: var(--white);
+    height: var(--2xsmall);
     font-weight: 700
 }
 
