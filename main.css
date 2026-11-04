@@ -212,7 +212,8 @@ hr {
     font-size: var(--large);
     font-style: italic;
     font-family: var(--serif);
-    color: var(--white) !important;
+    color: var(--white-op75) !important;
+    text-shadow: 1px 1px var(--light);
     text-align: center;
     align-items: center;
     justify-content: center;
