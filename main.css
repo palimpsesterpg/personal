@@ -254,6 +254,18 @@ hr {
     color: black
 }
 
+.footer {
+    padding: var(--large);
+    background-color: var(--darklight);
+    border-radius: var(--large);
+    margin-top: var(--large);
+    text-align: center;
+    font-size: var(--small);
+    text-transform: uppercase;
+    font-family: var(--mono);
+    font-weight: 300;
+}
+
 .category-title h2 {
     font-family: var(--display);
     color: var(--white) !important;
@@ -268,7 +280,12 @@ hr {
 .forumlist {
     display: flex;
     gap: var(--large);
+    padding: var(--large);
     flex-direction: column
+}
+
+.forumlist:last-of-type {
+    padding-bottom: 0 !important
 }
 
 .forum {
@@ -278,10 +295,6 @@ hr {
     padding: var(--large);
     background-color: var(--darklight);
     border: 0.5px solid var(--neutral)
-}
-
-.forum:first-of-type {
-    margin-top: var(--large)
 }
 
 .forum-details {
